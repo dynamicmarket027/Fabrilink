@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
-import Image from 'src/components/AppImage';
-import Button from 'src/components/ui/Button';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
+import Button from '../../../components/ui/Button';
 
 const JobCard = ({ job, onSave, onApply, onShare, isSaved = false }) => {
   const [isExpanded, setIsExpanded] = useState(false);

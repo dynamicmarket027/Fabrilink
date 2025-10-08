@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
-import Button from 'src/components/ui/Button';
-import Select from 'src/components/ui/Select';
-import { Checkbox } from 'src/components/ui/Checkbox';
+import Icon from '../../../components/AppIcon';
+import Button from '../../../components/ui/Button';
+import Select from '../../../components/ui/Select';
+import { Checkbox } from '../../../components/ui/Checkbox';
 
 const PrivacySettings = ({ privacySettings, onUpdate }) => {
   const [settings, setSettings] = useState({

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
-import Image from 'src/components/AppImage';
-import Button from 'src/components/ui/Button';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
+import Button from '../../../components/ui/Button';
 
 const ActivityFeed = () => {
   const [activeFilter, setActiveFilter] = useState('todos');

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
-import Button from 'src/components/ui/Button';
-import Input from 'src/components/ui/Input';
+import Button from '../../../components/ui/Button';
+import Input from '../../../components/ui/Input';
 
-import { Checkbox } from 'src/components/ui/Checkbox';
+import { Checkbox } from '../../../components/ui/Checkbox';
 
 const ExperienceSection = ({ experiences, onUpdate }) => {
   const [isEditing, setIsEditing] = useState(false);

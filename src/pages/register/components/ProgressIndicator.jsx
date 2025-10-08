@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Icon from 'src/components/AppIcon';
-import Button from 'src/components/ui/Button';
+import Icon from '../../components/AppIcon';
+import Button from '../../components/ui/Button';
 import RegistrationForm from './components/RegistrationForm';
 import ProgressIndicator from './components/ProgressIndicator';
 import SocialRegistration from './components/SocialRegistration';

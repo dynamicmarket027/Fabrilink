@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
-import Image from 'src/components/AppImage';
-import Button from 'src/components/ui/Button';
-import Input from 'src/components/ui/Input';
-import Select from 'src/components/ui/Select';
+import Icon from '../../../components/AppIcon';
+import Image from '../../../components/AppImage';
+import Button from '../../../components/ui/Button';
+import Input from '../../../components/ui/Input';
+import Select from '../../../components/ui/Select';
 
 const PersonalInfoSection = ({ profileData, onUpdate }) => {
   const [isEditing, setIsEditing] = useState(false);

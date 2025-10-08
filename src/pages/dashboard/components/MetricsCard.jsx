@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'src/components/AppIcon';
+import Icon from '../../../components/AppIcon';
 
 const MetricsCard = ({ title, value, change, changeType, icon, color = "primary" }) => {
   const getColorClasses = (colorType) => {

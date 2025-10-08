@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Icon from 'src/components/AppIcon';
-import Button from 'src/components/ui/Button';
-import Input from 'src/components/ui/Input';
+import Icon from '../../../components/AppIcon';
+import Button from '../../../components/ui/Button';
+import Input from '../../../components/ui/Input';
 import JobCard from './JobCard';
 
 const SavedJobs = ({ isOpen, onClose }) => {
