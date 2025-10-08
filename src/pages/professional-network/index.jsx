@@ -3,7 +3,7 @@ import Header from '../../components/ui/Header';
 import Icon from '../../components/AppIcon';
 import Button from '../../components/ui/Button';
 import ConnectionCard from './components/ConnectionCard';
-import { NetworkSearch } from './components/NetworkSearch';
+import NetworkSearch from './components/NetworkSearch';
 import NetworkAnalytics from './components/NetworkAnalytics';
 import ConnectionRequests from './components/ConnectionRequests';
 import RecommendedConnections from './components/RecommendedConnections';
