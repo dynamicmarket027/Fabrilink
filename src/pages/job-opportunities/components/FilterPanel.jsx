@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import Button from '../../../components/ui/Button';
-import Input from '../../../components/ui/Input';
-import Select from '../../../components/ui/Select';
-import { Checkbox } from '../../../components/ui/Checkbox';
+import Button from 'src/components/ui/Button';
+import Input from 'src/components/ui/Input';
+import Select from 'src/components/ui/Select';
+import { Checkbox } from 'src/components/ui/Checkbox';
 
 const FilterPanel = ({ filters, onFiltersChange, onClearFilters, isOpen, onToggle }) => {
   const [localFilters, setLocalFilters] = useState(filters);

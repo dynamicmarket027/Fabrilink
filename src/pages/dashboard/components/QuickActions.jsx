@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Icon from '../../../components/AppIcon';
-import Button from '../../../components/ui/Button';
+import Icon from 'src/components/AppIcon';
+import Button from 'src/components/ui/Button';
 
 const QuickActions = () => {
   const [showPostModal, setShowPostModal] = useState(false);

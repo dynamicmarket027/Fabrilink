@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Icon from '../../../components/AppIcon';
-import Image from '../../../components/AppImage';
-import Button from '../../../components/ui/Button';
+import Icon from 'src/components/AppIcon';
+import Image from 'src/components/AppImage';
+import Button from 'src/components/ui/Button';
 
 const NetworkingSidebar = () => {
   const [acceptedConnections, setAcceptedConnections] = useState(new Set());

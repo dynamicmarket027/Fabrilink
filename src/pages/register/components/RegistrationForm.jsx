@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Input from '../../../components/ui/Input';
-import Button from '../../../components/ui/Button';
-import { Checkbox } from '../../../components/ui/Checkbox';
-import Select from '../../../components/ui/Select';
-import Icon from '../../../components/AppIcon';
+import Input from 'src/components/ui/Input';
+import Button from 'src/components/ui/Button';
+import { Checkbox } from 'src/components/ui/Checkbox';
+import Select from 'src/components/ui/Select';
+import Icon from 'src/components/AppIcon';
 
 const RegistrationForm = ({ currentStep, onStepChange, onSubmit }) => {
   const [formData, setFormData] = useState({

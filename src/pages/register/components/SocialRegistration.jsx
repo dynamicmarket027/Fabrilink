@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '../../../components/ui/Button';
-import Icon from '../../../components/AppIcon';
+import Button from 'src/components/ui/Button';
+import Icon from 'src/components/AppIcon';
 
 const SocialRegistration = ({ onSocialRegister }) => {
   const [isLinkedInLoading, setIsLinkedInLoading] = useState(false);

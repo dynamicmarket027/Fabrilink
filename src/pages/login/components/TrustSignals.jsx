@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from 'src/components/AppIcon';
 
 const TrustSignals = () => {
   const securityFeatures = [

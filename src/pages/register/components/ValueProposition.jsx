@@ -1,6 +1,6 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
-import Image from '../../../components/AppImage';
+import Icon from 'src/components/AppIcon';
+import Image from 'src/components/AppImage';
 
 const ValueProposition = () => {
   const benefits = [
